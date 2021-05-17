@@ -28,7 +28,11 @@ make clean : Para borrar todos los archivos generados, incluso la base de datos.
 
 ## Requisitos
 
-Instalar la biblioteca sqlite3.
+Es necesario instalar la biblioteca sqlite3.
+
+Por ejemplo en Ubuntu:
+
+$ sudo apt-get install sqlite3 libsqlite3-dev
 
 ## Todo:
 
