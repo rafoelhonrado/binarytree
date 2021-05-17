@@ -1,5 +1,6 @@
 # binarytree
 
+## Descripción
 Esta biblioteca (vichamasoft) y su binario permite crear un arbol binario y almacenarlo en una base de datos sqlite3, para luego poder encontrar el ancestro común entre dos nodos del arbol binario.
 Para crear el arbol  tenemos que invocar al programa con los siguientes parametros:
 
@@ -16,7 +17,8 @@ Por ejemplo:
 -t ARBOL001 -f 7,9
 
 
-Compilar:
+## Compilación
+
 Para compilar el programa se utiliza el estandar make.
 
 make all : Para generar el binario.
@@ -24,9 +26,12 @@ make all : Para generar el binario.
 make clean : Para borrar todos los archivos generados, incluso la base de datos.
 
 
-Requisitos:
+## Requisitos
+
 Instalar la biblioteca sqlite3.
 
-Todo:
+## Todo:
+
 Implementar CGI para soportar REST.
+
 Implementar test cases usando Google C++ Testing Framework.
