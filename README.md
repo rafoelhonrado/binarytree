@@ -20,9 +20,13 @@ Compilar:
 Para compilar el programa se utiliza el estandar make.
 
 make all : Para generar el binario.
+
 make clean : Para borrar todos los archivos generados, incluso la base de datos.
 
 
 Requisitos:
 Instalar la biblioteca sqlite3.
 
+Todo:
+Implementar CGI para soportar REST.
+Implementar test cases usando Google C++ Testing Framework.
