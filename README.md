@@ -18,7 +18,7 @@ Por ejemplo
 Para encontrar el ancestro común entre dos nodos usamos la siguiente combinacion de parametros:
 
 ```
--t [nombre-arbol] -f [valores-separados-por-coma]
+-t [nombre-arbol] -f [valor1,valor2]
 ```
 
 Por ejemplo:
@@ -26,6 +26,7 @@ Por ejemplo:
 ```
 -t ARBOL001 -f 7,9
 ```
+
 
 ## Compilación
 
