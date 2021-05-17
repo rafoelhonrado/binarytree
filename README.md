@@ -15,3 +15,14 @@ Para encontrar el ancestro común entre dos nodos usamos la siguiente combinacio
 Por ejemplo:
 -t ARBOL001 -f 7,9
 
+
+Compilar:
+Para compilar el programa se utiliza el estandar make.
+
+make all : Para generar el binario.
+make clean : Para borrar todos los archivos generados, incluso la base de datos.
+
+
+Requisitos:
+Instalar la biblioteca sqlite3.
+
