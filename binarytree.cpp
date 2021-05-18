@@ -151,7 +151,7 @@ int main(int argc, char *argv[]){
          lastNode=value1;
        }
     }
-    std::cout<<"Common Ancestor:"<<lastNode;
+    std::cout<<"Common Ancestor: ["<<lastNode<< "] " <<std::endl;
   }  
   return 0;
 }
